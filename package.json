@@ -1,0 +1,29 @@
+{
+  "name": "i-am-groot-api",
+  "version": "1.0.0",
+  "description": "An API to let your application speak like groot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexwalling/i-am-groot-api.git"
+  },
+  "keywords": [
+    "groot",
+    "API"
+  ],
+  "author": "Alex Walling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexwalling/i-am-groot-api/issues"
+  },
+  "homepage": "https://github.com/alexwalling/i-am-groot-api#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "nodemon": "^1.11.0"
+  }
+}
